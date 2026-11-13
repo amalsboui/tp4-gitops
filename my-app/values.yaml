@@ -1,7 +1,7 @@
 replicaCount: 1
 image:
   repository: hophopp/tp4-app   
-  tag: v6356a1560924ab12d5604baf37d60d053875bf23
+  tag: vd324aca3b6fb06d1c60306b2d3d277a3339b1eb5
 resources:
   requests: { cpu: 50m, memory: 64Mi }
   limits: { cpu: 200m, memory: 128Mi }
