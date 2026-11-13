@@ -1,0 +1,12 @@
+replicaCount: 1
+image:
+  repository: hophopp/tp4-app   
+  tag: v6356a1560924ab12d5604baf37d60d053875bf23
+resources:
+  requests: { cpu: 50m, memory: 64Mi }
+  limits: { cpu: 200m, memory: 128Mi }
+service:
+  port: 80
+ingress:
+  enabled: false
+  host: my-app.local
