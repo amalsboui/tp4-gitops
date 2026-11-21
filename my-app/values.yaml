@@ -1,4 +1,4 @@
-replicaCount: 1
+replicaCount: 2
 image:
   repository: hophopp/tp4-app   
   tag: vb8997ef62ff21306b35fff96eb5d3a299e3c6089
